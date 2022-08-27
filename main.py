@@ -1,9 +1,7 @@
 import sys
 petunjuk_tersimpan = None
-
-kode = """
->,[>,]<[<]>[.>]
-"""
+# kode = open("brainfuck.txt", 'r').read()
+kode = ">,[>,]<[<]>[.>]"
 sel, petunjuk, pengenal = [0], 0, 0
 while petunjuk < len(kode):
     if kode[petunjuk] == ">":
