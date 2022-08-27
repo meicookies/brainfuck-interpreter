@@ -24,3 +24,4 @@ while petunjuk < len(kode):
         karakter = ord(sys.stdin.read(1))
         sel[pengenal] = karakter if karakter != 10 else 0
     petunjuk += 1
+# coded by ./meicookies
